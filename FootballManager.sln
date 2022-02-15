@@ -3,9 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager", "FootballManager\FootballManager.csproj", "{28FAE611-0F9C-462E-9B63-AADEBCF6D51D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballManager", "FootballManager\FootballManager.csproj", "{28FAE611-0F9C-462E-9B63-AADEBCF6D51D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballManager.UnitTests", "FootballManager.UnitTests\FootballManager.UnitTests.csproj", "{C0359557-06D8-4B3D-8677-08ABD04D64A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballManager.UnitTests", "FootballManager.UnitTests\FootballManager.UnitTests.csproj", "{C0359557-06D8-4B3D-8677-08ABD04D64A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{0DAE30A1-A9B6-4564-9445-60B50DB663EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restful.UnitTests", "Restful.UnitTests\Restful.UnitTests.csproj", "{3DEBB904-D54B-4EF7-9A36-351CCC7A13C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restful", "Restful\Restful.csproj", "{F842DF73-A6E5-4A45-8D03-4AD3F05F46FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restful.MSUnitTests", "Restful.MSUnitTests\Restful.MSUnitTests.csproj", "{5616E7BB-4997-4E3C-A212-46D4C810EDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Restful.IntegrationTests", "Restful.IntegrationTests\Restful.IntegrationTests.csproj", "{393630EB-C6D6-46C9-97F3-AC6DBA8BFFAB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +31,31 @@ Global
 		{C0359557-06D8-4B3D-8677-08ABD04D64A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0359557-06D8-4B3D-8677-08ABD04D64A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0359557-06D8-4B3D-8677-08ABD04D64A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DEBB904-D54B-4EF7-9A36-351CCC7A13C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DEBB904-D54B-4EF7-9A36-351CCC7A13C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DEBB904-D54B-4EF7-9A36-351CCC7A13C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DEBB904-D54B-4EF7-9A36-351CCC7A13C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F842DF73-A6E5-4A45-8D03-4AD3F05F46FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F842DF73-A6E5-4A45-8D03-4AD3F05F46FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F842DF73-A6E5-4A45-8D03-4AD3F05F46FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F842DF73-A6E5-4A45-8D03-4AD3F05F46FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5616E7BB-4997-4E3C-A212-46D4C810EDC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5616E7BB-4997-4E3C-A212-46D4C810EDC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5616E7BB-4997-4E3C-A212-46D4C810EDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5616E7BB-4997-4E3C-A212-46D4C810EDC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{393630EB-C6D6-46C9-97F3-AC6DBA8BFFAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{393630EB-C6D6-46C9-97F3-AC6DBA8BFFAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{393630EB-C6D6-46C9-97F3-AC6DBA8BFFAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{393630EB-C6D6-46C9-97F3-AC6DBA8BFFAB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3DEBB904-D54B-4EF7-9A36-351CCC7A13C1} = {0DAE30A1-A9B6-4564-9445-60B50DB663EF}
+		{F842DF73-A6E5-4A45-8D03-4AD3F05F46FF} = {0DAE30A1-A9B6-4564-9445-60B50DB663EF}
+		{5616E7BB-4997-4E3C-A212-46D4C810EDC2} = {0DAE30A1-A9B6-4564-9445-60B50DB663EF}
+		{393630EB-C6D6-46C9-97F3-AC6DBA8BFFAB} = {0DAE30A1-A9B6-4564-9445-60B50DB663EF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1121784E-5CE1-49FD-8C29-02EC85058AF5}
